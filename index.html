@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f8dce2">
+<meta name="description" content="ร้านพี่ดา (ดอกไม้สด) ส่งต่อความยินดีและความปรารถนาดี ด้วยงานดอกไม้สดประณีต">
+<title>ร้านพี่ดา (ดอกไม้สด) | ส่งต่อความยินดีด้วยดอกไม้</title>
+<style>
+:root{--pink:#e9829d;--pink-dark:#b94e6d;--blush:#fff5f6;--rose:#f8dce2;--brown:#6f514c;--cream:#fffdfb;--green:#718365}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;font-family:"Leelawadee UI","Tahoma",sans-serif;color:var(--brown);background:var(--cream);line-height:1.75}
+a{color:inherit;text-decoration:none}.container{width:min(1140px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(255,253,251,.94);backdrop-filter:blur(12px);border-bottom:1px solid #f5e2e5}
+.nav{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:18px;min-height:76px}.brand{justify-self:start;display:flex;align-items:center;gap:10px;font-weight:800;color:var(--pink-dark);font-size:1.12rem;white-space:nowrap;min-width:0}.brand-logo{display:block;width:54px;height:54px;object-fit:contain;flex-shrink:0}.brand-text{display:block}.brand span{display:block;font-size:.75rem;color:#977b75;font-weight:500;line-height:1.2}
+nav{grid-column:2;display:flex;justify-content:center;gap:clamp(14px,2.1vw,26px);align-items:center;min-width:0}nav a{font-size:clamp(.82rem,.95vw,.94rem);white-space:nowrap;transition:.2s}nav a:hover{color:var(--pink-dark)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 19px;border-radius:999px;font-weight:700;border:1px solid transparent;transition:transform .2s,box-shadow .2s;cursor:pointer}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px #d9859c35}.btn-primary{background:var(--pink);color:white}.btn-outline{border-color:var(--pink);color:var(--pink-dark);background:#fff}
+.hero{padding:28px 0 50px;background:linear-gradient(135deg,#fff5f6,#fde7ec 58%,#fffaf6)}.hero img{display:block;width:100%;height:auto;max-height:440px;object-fit:cover;object-position:center;border-radius:26px;box-shadow:0 18px 42px #b95a7130}
+.hero-copy{text-align:center;padding:27px 10px 0}.eyebrow{letter-spacing:.08em;color:var(--pink-dark);font-weight:700;font-size:.85rem}.hero h1{font-size:clamp(1.8rem,4vw,3rem);line-height:1.3;margin:7px 0 10px;color:#b95070}.hero p{margin:0 auto 20px;max-width:650px}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+section{padding:72px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 35px}.section-head h2{font-size:clamp(1.6rem,3vw,2.25rem);color:#b95070;margin:0 0 8px}.section-head p{margin:0;color:#8d7771}.about{background:#fff}.about-card{max-width:850px;margin:auto;text-align:center;padding:35px;border-radius:24px;background:var(--blush);border:1px solid #f5dce2}.flower-mark{font-size:2rem;color:var(--pink)}
+.products{background:#fff8f8}.product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.product-card{overflow:hidden;background:white;border-radius:22px;border:1px solid #f2dfe3;box-shadow:0 10px 28px #86505b0c;transition:transform .2s}.product-card:hover{transform:translateY(-5px)}.product-card img{width:100%;height:290px;object-fit:cover;display:block;background:#f8e8e9}.product-info{padding:20px}.product-info h3{margin:0 0 5px;font-size:1.18rem;color:#76534f}.product-info p{margin:0 0 14px;font-size:.92rem;color:#927e78}.price{font-size:1.25rem;font-weight:800;color:var(--pink-dark)}.product-bottom{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.contact-card{padding:28px;border:1px solid #f1dce1;background:white;border-radius:22px}.contact-card h3{margin-top:0;color:#b95070}.contact-item{display:flex;gap:12px;align-items:flex-start;margin:16px 0}.contact-icon{display:grid;place-items:center;width:40px;height:40px;flex-shrink:0;border-radius:50%;background:#fde8ed;font-size:1.15rem}.contact-buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.small-note{font-size:.82rem;color:#9a8580}
+footer{background:#f8e1e6;padding:30px 0;text-align:center}footer strong{color:#b95070}footer p{margin:5px 0}.footer-links{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin:12px 0}
+.mobile-menu{display:none}
+img{max-width:100%}a,button{touch-action:manipulation}section,article{min-width:0}
+@media(max-width:900px) and (min-width:641px){.nav{gap:12px}.brand{font-size:.98rem}.brand span{font-size:.68rem}nav{gap:clamp(9px,1.5vw,15px)}nav a{font-size:.8rem}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.product-card img{height:250px}.product-info{padding:16px}}
+@media(max-width:760px){.nav{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding:13px 0}.brand{font-size:1rem;text-align:left;width:auto;justify-content:center}.brand-logo{width:48px;height:48px}.brand span{font-size:.72rem}nav{order:2;width:100%;justify-content:center;gap:clamp(10px,3vw,18px);flex-wrap:wrap}nav a{font-size:clamp(.78rem,2.8vw,.88rem)}.hero{padding-top:18px}.hero img{border-radius:16px}.contact-grid{grid-template-columns:1fr}section{padding:54px 0}.about-card{padding:25px 20px}}
+@media(max-width:640px){.product-grid{grid-template-columns:minmax(0,1fr);max-width:460px;margin:auto}.product-card img{height:clamp(220px,68vw,300px)}.contact-card{padding:22px 18px}.hero-copy{padding-left:2px;padding-right:2px}.btn{padding:10px 16px}.container{width:min(100% - 32px,1140px)}.section-head{margin-bottom:26px}}
+@media(max-width:360px){nav{column-gap:10px;row-gap:5px}nav a{font-size:.76rem}.brand{font-size:.94rem}.brand-logo{width:42px;height:42px}.hero h1{font-size:1.65rem}.product-bottom{align-items:flex-start;flex-direction:column}.product-bottom .btn{align-self:flex-start}}
+@media(min-width:901px) and (max-width:1100px){.product-grid{gap:18px}.product-card img{height:250px}.product-info{padding:17px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="ร้านพี่ดา ดอกไม้สด"><img class="brand-logo" src="images/shop-logo.png" alt="โลโก้ร้านพี่ดา"><span class="brand-text">ร้านพี่ดา <span>ดอกไม้สด • Fresh Flowers</span></span></a>
+    <nav aria-label="เมนูหลัก">
+      <a href="#home">หน้าแรก</a>
+      <a href="#about">เกี่ยวกับเรา</a>
+      <a href="#products">รายการสินค้าแนะนำ</a>
+      <a href="#contact">ติดต่อเรา</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container">
+    <img src="images/banner.png" alt="แบนเนอร์ร้านพี่ดา ดอกไม้สด โทนสีชมพูอ่อน">
+    <div class="hero-copy">
+      <div class="eyebrow">FRESH FLOWERS • MADE WITH CARE</div>
+      <h1>เติมความสุขให้ทุกช่วงเวลาด้วยดอกไม้สด</h1>
+      <p>เลือกช่อดอกไม้สวย ๆ เพื่อส่งต่อความรัก ความยินดี และความปรารถนาดีให้คนสำคัญของคุณ</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#products">ชมสินค้าแนะนำ</a>
+        <a class="btn btn-outline" href="https://line.me/R/ti/p/0862890798" target="_blank" rel="noopener">เพิ่มเพื่อนทาง LINE</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow">ABOUT OUR SHOP</div><h2>เกี่ยวกับเรา</h2><p>ดอกไม้สดสำหรับทุกความรู้สึกดี ๆ</p></div>
+    <div class="about-card">
+      <div class="flower-mark">✿</div>
+      <p><strong>ร้านพี่ดา (ดอกไม้สด)</strong> ส่งต่อความยินดีและความปรารถนาดี ด้วยงานดอกไม้สดประณีตจากร้านพี่ดา</p>
+      <p>เราตั้งใจคัดสรรและจัดดอกไม้ด้วยความใส่ใจ เพื่อให้ทุกช่อเป็นตัวแทนความรู้สึกพิเศษของคุณ ไม่ว่าจะเป็นของขวัญในวันสำคัญ หรือดอกไม้สำหรับไหว้พระ</p>
+    </div>
+  </div>
+</section>
+
+<section class="products" id="products">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow">OUR RECOMMENDATIONS</div><h2>รายการสินค้าแนะนำ</h2><p>เลือกดอกไม้ที่ใช่ แล้วส่งต่อความรู้สึกดี ๆ ให้คนที่คุณรัก</p></div>
+    <div class="product-grid">
+      <article class="product-card">
+        <img src="images/rose-bouquet.jpg" alt="ช่อดอกกุหลาบสีชมพูห่อกระดาษอย่างประณีต" loading="lazy">
+        <div class="product-info"><h3>ดอกกล้วยไม้</h3><p>แทนความรัก ความห่วงใย และความรู้สึกดี ๆ</p><div class="product-bottom"><span class="price">45 บาท</span><a class="btn btn-outline" href="https://line.me/R/ti/p/0862890798" target="_blank" rel="noopener">สั่งซื้อ</a></div></div>
+      </article>
+      <article class="product-card">
+        <img src="images/worship-flowers.jpg" alt="ภาพประกอบรายการดอกดาวเรือง" loading="lazy">
+        <div class="product-info"><h3>ดอกดาวเรือง</h3><p>สีสันสดใส เหมาะสำหรับมอบให้และใช้ในโอกาสมงคล</p><div class="product-bottom"><span class="price">65 บาท</span><a class="btn btn-outline" href="https://line.me/R/ti/p/0862890798" target="_blank" rel="noopener">สั่งซื้อ</a></div></div>
+      </article>
+      <article class="product-card">
+        <img src="images/marigold.jpg" alt="ภาพประกอบรายการชุดดอกไม้ไหว้พระ" loading="lazy">
+        <div class="product-info"><h3>ชุดดอกไม้ไหว้พระ</h3><p>จัดเตรียมด้วยความเรียบร้อย เหมาะสำหรับสักการะบูชา</p><div class="product-bottom"><span class="price">59 บาท</span><a class="btn btn-outline" href="https://line.me/R/ti/p/0862890798" target="_blank" rel="noopener">สั่งซื้อ</a></div></div>
+      </article>
+    </div>
+    <p class="small-note" style="text-align:center;margin-top:20px">หมายเหตุ: ภาพสินค้า 3 รายการที่ได้รับมีลักษณะเหมือนกัน สามารถเปลี่ยนเป็นภาพดอกดาวเรืองและชุดดอกไม้ไหว้พระที่ถูกต้องได้ภายหลัง</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow">GET IN TOUCH</div><h2>ติดต่อเรา</h2><p>สอบถามสินค้าและสั่งซื้อได้ตามช่องทางด้านล่าง</p></div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>ร้านพี่ดา (ดอกไม้สด)</h3>
+        <div class="contact-item"><span class="contact-icon">⌖</span><div><strong>ที่ตั้งร้าน</strong><br>27 ถนนชัย-เพชรมงคล ต.บ่อยาง<br>อ.เมืองสงขลา จ.สงขลา 9000</div></div>
+        <div class="contact-item"><span class="contact-icon">☎</span><div><strong>เบอร์โทรศัพท์</strong><br><a href="tel:0862890798">086-289-0798</a></div></div>
+        <div class="contact-item"><span class="contact-icon">LINE</span><div><strong>LINE ID</strong><br>086-289-0798</div></div>
+        <div class="contact-buttons">
+          <a class="btn btn-primary" href="tel:0862890798">☎ โทรหาเรา คลิก!</a>
+          <a class="btn btn-outline" href="https://line.me/R/ti/p/0862890798" target="_blank" rel="noopener">เพิ่มเพื่อน LINE</a>
+        </div>
+        <p class="small-note">ปุ่มโทรจะเปิดแอปโทรศัพท์บนมือถือ ส่วนปุ่ม LINE จะพยายามเปิดหน้าเพิ่มเพื่อนใน LINE</p>
+      </div>
+      <div class="contact-card">
+        <h3>ส่งข้อความหาเรา</h3>
+        <p>ต้องการสอบถามราคา เช็กสินค้า หรือสั่งจัดดอกไม้สำหรับโอกาสพิเศษ ติดต่อเราได้โดยตรง</p>
+        <p>🌸 ดอกไม้สดสำหรับวันสำคัญ</p><p>🎁 ของขวัญแทนความรู้สึก</p><p>🙏 ดอกไม้สำหรับไหว้พระ</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="container">
+    <strong>ร้านพี่ดา (ดอกไม้สด)</strong>
+    <p>ส่งต่อความยินดีและความปรารถนาดี ด้วยงานดอกไม้สดประณีต</p>
+    <div class="footer-links"><a href="#home">หน้าแรก</a><a href="#about">เกี่ยวกับเรา</a><a href="#products">สินค้าแนะนำ</a><a href="#contact">ติดต่อเรา</a></div>
+    <p>โทร <a href="tel:0862890798">086-289-0798</a> · LINE ID: 086-289-0798</p>
+    <p class="small-note">© ร้านพี่ดา (ดอกไม้สด)</p>
+  </div>
+</footer>
+</body>
+</html>
